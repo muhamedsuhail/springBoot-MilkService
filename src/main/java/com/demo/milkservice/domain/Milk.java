@@ -37,12 +37,13 @@ public class Milk {
     private Timestamp modifiedDate;
 
     private String milkName;
-    private MilkTypeEnum milkType;
+    private String milkType;
 
     @Column(unique = true)
     private Long upc;
 
     private BigDecimal price;
 
-    private Integer quantityOnHand;
+    private Integer minOnHand;
+    private Integer quantityToMilk;
 }
