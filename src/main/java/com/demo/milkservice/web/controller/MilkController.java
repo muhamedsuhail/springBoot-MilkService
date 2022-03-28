@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
@@ -24,7 +25,7 @@ public class MilkController {
     }
 
     @PostMapping
-    public ResponseEntity saveNewMilk(@RequestBody MilkDTO milkDTO) {
+    public ResponseEntity saveNewMilk(@RequestBody @Validated MilkDTO milkDTO) {
         // TODO impl
         MilkDTO saveDTO = milkService.saveNewMilk(milkDTO);
         HttpHeaders headers = new HttpHeaders();
@@ -34,7 +35,7 @@ public class MilkController {
 
     @PutMapping("/{milkId}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public void updateMilkById(@PathVariable("milkId") UUID milkId, MilkDTO milkDTO) {
+    public void updateMilkById(@PathVariable("milkId") UUID milkId, @RequestBody @Validated MilkDTO milkDTO) {
         milkService.updateMilkById(milkId, milkDTO);
     }
 
