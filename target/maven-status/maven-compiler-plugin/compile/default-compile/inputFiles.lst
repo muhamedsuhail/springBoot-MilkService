@@ -1,0 +1,13 @@
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-MilkService/src/main/java/com/demo/milkservice/web/mappers/DateMapper.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-MilkService/src/main/java/com/demo/milkservice/web/model/MilkDTO.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-MilkService/src/main/java/com/demo/milkservice/web/model/MilkPagedList.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-MilkService/src/main/java/com/demo/milkservice/web/mappers/MilkMapper.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-MilkService/src/main/java/com/demo/milkservice/MilkServiceApplication.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-MilkService/src/main/java/com/demo/milkservice/web/model/MilkTypeEnum.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-MilkService/src/main/java/com/demo/milkservice/web/controller/MvcExceptionHandler.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-MilkService/src/main/java/com/demo/milkservice/bootstrap/MilkLoader.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-MilkService/src/main/java/com/demo/milkservice/services/MilkServiceImpl.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-MilkService/src/main/java/com/demo/milkservice/web/controller/MilkController.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-MilkService/src/main/java/com/demo/milkservice/domain/Milk.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-MilkService/src/main/java/com/demo/milkservice/repositories/MilkRepository.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-MilkService/src/main/java/com/demo/milkservice/services/MilkService.java
