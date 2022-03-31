@@ -40,7 +40,7 @@ public class Milk {
     private String milkType;
 
     @Column(unique = true)
-    private Long upc;
+    private String upc;
 
     private BigDecimal price;
 
